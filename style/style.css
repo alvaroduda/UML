@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+    padding-bottom: 60px;
+}
+
+body.dark-mode {
+    background-color: #2d2d2d;
+    color: #f4f4f4; 
+}
+
+body.dark-mode .resposta {
+    color: #f4f4f4; 
+}
+
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode p, 
+body.dark-mode li, 
+body.dark-mode strong {
+    color: #f4f4f4; 
+}
+
+body.dark-mode a {
+    color: #ffcc00; 
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #ffcc00;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+header button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header button:hover {
+    background-color: #f1b200;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.questionario h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.questionario p {
+    margin: 10px 0;
+}
+
+.questionario ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.resposta {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#formulario {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;  
+}
+
+#formulario label {
+    margin-right: 15px;
+}
+
+#formulario button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 8px 16px; 
+    font-size: 1.1em;  
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px; 
+}
+
+#formulario button:hover {
+    background-color: #f1b200;
+}
+
+.feedback {
+    text-align: center;
+}
